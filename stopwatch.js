@@ -22,7 +22,7 @@ function start() {
         hours++;
       }
       timeDisplay.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-    }, 16.67);
+    }, 16.6666666667);
   }
   
   function stop() {
